@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;700&family=Nunito+Sans:ital,wght@0,300;0,700;1,300;1,700&family=Open+Sans:wght@300;400;700&family=Varela+Round&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: "Open Sans";
+    color: #4d4e53;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 15px 0;
+    color: #4d4e53;
+}
+
+
+nav {
+    width: 300px;
+    position: fixed;
+    left: 0; 
+    top: 0;
+    height: 100%;
+}
+
+main {
+    margin-left: 300px;
+    max-width: 1100px;
+    padding: 1rem 2.2rem;
+}
+
+main .main-section header {
+    font-size: 28px;
+    margin: 1rem 0;
+    color: #000;
+}
+
+main .main-section ul {
+    margin: 15px 0;
+    padding: 0 0 0 40px;
+}
+main .main-section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 15px;
+}
+
+main .main-section code {
+    display: block;
+    font-size: 12px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    font-family: monospace;
+    white-space: pre-line;
+}
+#References a{
+    color: blue;
+}
+
+#References a:hover {
+    text-decoration: underline;
+}
+#navbar ul {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 88%;
+}
+#navbar header {
+    font-size: 28px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+#navbar header span {
+    color: rgb(165, 165, 0);
+}
+#navbar a.nav-link {
+    padding: 10px 30px;
+    display: inline-block;
+    line-height: 1.5;
+    font-size: 14px;
+}
+#navbar a.nav-link:hover {
+    text-decoration: underline;
+}
+
+#navbar ul::-webkit-scrollbar {
+    width: 5px;
+}
+#navbar ul::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: rgb(163, 163, 163);
+}
+#navbar ul::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 700px) {
+    #nav-bar {
+        
+    }
+}
+
+@media (max-width: 800px){
+  #navbar {
+    display: none;
+  }
+}
